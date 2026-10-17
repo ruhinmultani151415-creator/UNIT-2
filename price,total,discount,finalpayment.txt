@@ -1,0 +1,25 @@
+//program to find price,total,discount,finalpayment
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+    float price, total, discount, finalpayment;
+    int quantity;
+
+    printf("Enter price of one item: ");
+    scanf("%f", &price);
+
+    printf("Enter quantity: ");
+    scanf("%d", &quantity);
+
+    total = price * quantity;
+    discount = total * 10 / 100;
+    finalpayment = total - discount;
+
+    printf("Total = %.2f\n", total);
+    printf("Discount = %.2f\n", discount);
+    printf("Final Payment = %.2f\n", finalpayment);
+
+    return 0;
+}
