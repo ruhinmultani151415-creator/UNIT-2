@@ -1,0 +1,16 @@
+//program to print 200,198 to 180
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+    int i;
+clrscr();
+
+    for (i = 200; i >= 180; i = i - 2)
+    {
+        printf("%d ", i);
+    }
+
+    getch();
+}
