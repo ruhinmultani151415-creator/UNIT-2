@@ -1,0 +1,15 @@
+//program to find odd even number
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a;
+clrscr();
+printf("Enter a number:");
+scanf("%d",&a);
+if(a%2==0)
+printf("\nEven Number");
+else
+printf("\n odd Number");
+getch();
+}
