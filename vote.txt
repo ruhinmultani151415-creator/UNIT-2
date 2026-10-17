@@ -1,0 +1,15 @@
+//program to find out eligibility criteria for vote
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a;
+clrscr();
+printf("Enter age:");
+scanf("%d",&a);
+if(a>=18)
+printf("\nEligibility for vote:");
+else
+printf("\nNot eligible for voting:");
+getch();
+}
